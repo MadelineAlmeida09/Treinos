@@ -1,0 +1,2 @@
+# treinos
+ treinanod habilidades

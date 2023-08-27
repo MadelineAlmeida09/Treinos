@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*Configurações gerais*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Configurações do corpo e do html*/
+html, body{
+    background-color: #F5F5DC;
+   width: 100%;
+   text-align: justify;
+}
+
+/*Configurações gerais do header*/
+header{
+    background-color: #3CB371;
+    text-align: center;
+    width: 100%;
+    height: 15vh;
+    font-weight: bold;
+}
+
+/*Id`s prof e turma do header*/
+header > #prof, #turma{
+    display: inline-block;
+}
+
+/*Id aluno*/
+header > #aluno{
+    float: right;
+}
+
+/*Configurações gerais do main*/
+main{
+    width: 75%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+
+/*configurações gerais figures*/
+picture{
+    display: block;
+    text-align: center;
+}
+
+/*Configurações gerais parágrafos*/
+main > p {
+    text-indent: 1em;
+    width: 98%;
+    margin: auto;
+}
+
+/*Configurações gerais subtítulos*/
+h2{
+    background-image: linear-gradient(to right, #3CB371, transparent);
+}
+
+
+/*article de introdução*/
+main > article#intro > p{
+    text-indent: 1em;
+    width: 98%;
+    margin: auto;
+}
+
+/*parágrafo do article impacto*/
+main > article#impac > p{
+    text-indent: 1em;
+    width: 98%;
+    margin: auto;
+}
+
+/*Gráfico do figure 1 do 1° ano*/
+picture > img#umano{
+    padding-bottom: 35px;
+}
+
+/*Gráfico do figure 1 do 2° ano*/
+picture > img#seano{
+    padding-bottom: 30px;
+    padding-left:30px ;
+}
+
+#grafi > h2 {
+    background-color: #3CB371;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside > ul {
+    list-style-position: inside;
+}
+/*Links da bibliográfia*/
+a{
+    color: #006400;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background-color: #3CB371;
+}

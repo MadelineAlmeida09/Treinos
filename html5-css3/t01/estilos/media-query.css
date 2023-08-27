@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 500px){
+    h1{
+        height: 18vh;
+    }
+    main{
+        width: 100%;
+    }
+}
