@@ -1,2 +1,3 @@
 # treinos
- treinanod habilidades
+ treinando habilidades
+
