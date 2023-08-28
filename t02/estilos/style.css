@@ -50,12 +50,16 @@ main{
 
 /*configurações gerais figures*/
 picture{
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
     text-align: center;
 }
 
 /*Configurações gerais parágrafos*/
 main > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-indent: 1em;
     width: 98%;
     margin: auto;
@@ -63,7 +67,7 @@ main > p {
 
 /*Configurações gerais subtítulos*/
 h2{
-    background-image: linear-gradient(to right, #593F0F, transparent);
+    background-color: #705641;
     color: #0D0D0D;
 }
 
@@ -94,7 +98,7 @@ picture > img#seano{
 }
 
 #grafi > h2 {
-    background-color: transparent;
+    color: #1f190d;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
