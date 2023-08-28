@@ -36,6 +36,7 @@
 @media screen and (min-width:992px) and (max-width:1200px){
     header{
         font-size: 90%;
+        height: 16vh;
     }
     main{
         font-size: 1.1em;
@@ -43,6 +44,7 @@
     }
     footer{
         font-size: 120%;
+        height: 15vh;
     }
 }
 
@@ -58,5 +60,6 @@
     }
     footer{
         font-size: 135%;
+        height: 14vh;
     }
 }
