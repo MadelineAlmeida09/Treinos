@@ -13,7 +13,6 @@
 html, body{
    background-color: #F5DEB3;
    width: 100%;
-   text-align: justify;
 }
 
 /*Configurações gerais do header*/
@@ -22,8 +21,8 @@ header{
     background-color: #0D0D0D;
     text-align: center;
     width: 100%;
-    height: 15vh;
-    font-size: 0.8em;
+    height: 13vh;
+    font-size: 110%;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -67,10 +66,11 @@ picture{
 
 /*Configurações gerais parágrafos*/
 main > p {
+    text-align: justify;
     padding-top: 20px;
     padding-bottom: 20px;
     text-indent: 1em;
-    width: 98%;
+    width: 95%;
     margin: auto;
 }
 
@@ -140,5 +140,6 @@ footer{
     text-align: center;
     background-color: #0D0D0D;
     color: #8C641B;
-    height: 15vh;
+    height: 9vh;
+    font-size: 113%;
 }
