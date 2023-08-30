@@ -1,62 +1,35 @@
 @charset "UTF-8";
 
-/*telas menores*/
-@media screen and (min-width:404px) and (max-width:600px) {
+@media screen and (min-width:768px) and (max-width:992px) {
     header{
-        font-size: 0.85em;
-        height: 99px;
-    }
-    main{
         font-size: 1em;
-        line-height: 1.3em;
     }
-    footer{
-        font-size: 0.85em;
-        height: 59px;
+    p{
+        font-size: 1.1em;
     }
 }
-/*tablets*/
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:992px) and (max-width:1200px) {
     header{
-        height:70px ;
+        font-size: 1.1em;
+    }
+    p{
+        font-size: 1.1em;
+    }
+    footer{
         font-size: 0.9em;
     }
-    main{
-        font-size: 1em;
-        line-height: 1.3em;
-    }
-    footer{
-        font-size: 0.8em;
-        height: 50px;
-    }
-    
 }
 
-/*Laptops*/
-@media screen and (min-width:992px) and (max-width:1200px){
-    header{
-        font-size: 1em;
-        height: 80px;
-    }
-    main{
-        font-size: 1.1em;
-        line-height: 1.5em;
-    }
-    footer{
-        font-size: 1em;
-        height: 55px;
-    }
-}
-
-/*telas maiores*/
 @media screen and (min-width:1200px) {
     header{
-        font-size: 1.2em;
-        height: 90px;
+        font-size: 1.7em;
+        height: 130px;
     }
-    main{
+    h2{
+        font-size: 1.9em;
+    }
+    p{
         font-size: 1.5em;
-        line-height: 1.5em;
     }
     footer{
         font-size: 1.2em;
