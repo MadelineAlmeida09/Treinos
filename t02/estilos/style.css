@@ -28,9 +28,6 @@ header{
 }
 
 /*Id`s prof e turma do footer*/
-#prof, #turma{
-    display: inline-block;
-}
 
 /*Id aluno*/
 #aluno{
@@ -80,8 +77,14 @@ h2{
     color: #0D0D0D;
 }
 
-#intro > h2{
+#feito > h2{
     border-radius: 10px 10px 0px 0px;
+    text-indent: 3px;
+}
+
+
+#prof{
+    text-indent: 7px;
 }
 
 /*article de introdução*/
@@ -136,10 +139,9 @@ a:hover{
 
 /*Rodapé*/
 footer{
-    margin-top: 20px;
     text-align: center;
     background-color: #0D0D0D;
     color: #8C641B;
-    height: 57px;
-    font-size: 0.7em;
+    height: 25px;
+    font-size: 1em;
 }
