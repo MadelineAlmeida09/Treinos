@@ -21,8 +21,8 @@ header{
     background-color: #0D0D0D;
     text-align: center;
     width: 100%;
-    height: 80px;
-    font-size: 0.7em;
+    height: 130px;
+    font-size: 87%;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -103,12 +103,18 @@ main > article#impac > p{
 
 /*Gráfico do figure 1 do 1° ano*/
 picture > img#umano{
-    padding-bottom: 35px;
+    width: 250px;
+    padding-bottom: 28px;
 }
 
+#seano{
+    width: 250px;
+    padding-bottom: 50px;
+}
 /*Gráfico do figure 1 do 2° ano*/
-picture > img#seano{
-    padding-bottom: 30px;
+picture > img#trano{
+    width: 250px;
+    padding-bottom: 35px;
     padding-left:30px ;
 }
 

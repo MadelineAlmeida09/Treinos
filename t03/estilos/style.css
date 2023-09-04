@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    width: 100%;
+}
+
+header{
+    background-color: #925D41;
+    height: 150px;
+}
+h1{
+    
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+img#caps{
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-20%, -85%);
+}
+nav{
+   text-align: center;
+   margin-top: 90px;
+}
+nav > a{
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: #C79559;
+    border-radius:8px ;
+}
