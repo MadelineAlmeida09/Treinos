@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino 4</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de pesquisa</h1>
+        <h2><em>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</em></h2>
+    </header>
+    <main>
+        <form action="">
+            <div class="size">
+                <label for="nome">Nome</label> <br>
+                <input type="text" name="nome" id="nome" placeholder=" Digite seu nome" required>
+            </div>
+
+            <div class="size">
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email" placeholder=" Digite seu email" required>
+            </div>
+
+            <div class="size">
+                <label for="idade">Idade (opcional)</label> <br>
+                <input type="number" name="idade" id="idade" placeholder=" Digite sua idade">
+            </div>
+
+            <div>
+                <label for="funcao">Qual opção melhor descreve sua função atual?</label> <br>
+                <select name="funcao" id="funcao" required>
+                    <option value="select" disabled selected value>Selecione a função atual</option>
+                    <option value="estud">Estudante</option>
+                    <option value="integ">Trabalho em tempo integral</option>
+                    <option value="aluno">Aluno em tempo integral</option>
+                    <option value="prefi">Prefiro não dizer</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Você recomendaria esta pesquisa para um amigo?</p>
+                <label for="defini">
+                    <input type="radio" name="check" id="defini"
+                    value="defini" checked>
+                    Definitivamente
+                </label> <br>
+                <label for="talvez">
+                    <input type="radio" name="check" id="talvez" value="talvez"> Talvez
+                </label> <br>
+                <label for="certe">
+                    <input type="radio" name="check" id="certe" value="talvez"> Não tenho certeza
+                </label>
+            </div>
+
+            <div>
+                <label for="favor">O que você mais gosta no curso</label> <br>
+                <select name="favor" id="favor" required>
+                    <option value="option" disabled selected value>Selecione uma opção</option>
+                    <option value="desafio">Desafio</option>
+                    <option value="projeto">Projetos</option>
+                    <option value="comuni">Comunidade</option>
+                    <option value="estudar">Código aberto</option>
+                </select>
+            </div>
+
+            <div>
+                <p>O que você gostaria de ver  (Marque todas as opções aplicáveis)</p>
+                <li><label for="marque"><input type="checkbox" name="marque" id="front"> Projetos front-end</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="back"> Projetos back-end</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="dados"> Visualização de dados</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="desafios"> Desafios</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="com-cod"> Comunidade de código aberto</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="salas"> Salas de ajuda</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="vid"> videos</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="cidade"> Encontros na cidade</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="wiki"> Wiki</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="Forum"> Forum</label></li>
+                <li><label for=""><input type="checkbox" name="marque" id="adicio"> Cursos adicionais</label></li>
+            </div>
+
+            <div>
+                <p>Algum comentário ou reclamação?</p>
+                <input type="text" id="coment" placeholder=" Digite seu comentário aqui"></input> <br>
+                <input type="submit" id="enviar" value="Enviar" >
+            </div>
+    </main>
+    </form>
+</body>
+</html>

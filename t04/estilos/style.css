@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+
+body{
+    font-size: 1.2em;
+    width: 100%;
+    color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+    background-image:  linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    border-radius: 10px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    background-color: var(--color-darkblue-alpha);
+}
+
+div{
+    padding: 10px;
+}
+
+#nome, #email, #idade {
+    font-size: 0.9em;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+select{
+    font-size: 0.9em;
+    color: grey;
+    height: 30px;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+#coment{
+    text-align: top;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-indent: 2px;
+    font-size: 0.9em;
+    width: 100%;
+    height: 100px;
+}
+
+::placeholder{
+    float: top;
+}
+
+#enviar{
+    border-radius: 5px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    width: 100%;
+    height: 50px;
+}
